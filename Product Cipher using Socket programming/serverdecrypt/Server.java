@@ -16,7 +16,7 @@ public class Server{
 			System.out.println("Connected to "+clientSocket+"\n/--------------/");
 			
 			dataInputStream = new DataInputStream(clientSocket.getInputStream());
-            dataOutputStream = new DataOutputStream(clientSocket.getOutputStream());
+            		dataOutputStream = new DataOutputStream(clientSocket.getOutputStream());
 			
 			
 			String fileName = "message";
